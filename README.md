@@ -12,7 +12,7 @@ Usage
 
 ```go
 // define a flush function that will be called whenever the buffer is full or the time period has elapsed
-func flushFunc(items []interface{}){
+func flushFunc(items []string){
     // flush logic
 }
 
