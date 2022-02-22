@@ -22,7 +22,6 @@ import (
 
 type Buffer interface {
 	[]byte | string
-	// anything that implements String() will work as a type
 }
 
 //TimedBuf implements a buffer that gathers items until either the buffer size or a specified time limit is reached
