@@ -3,7 +3,7 @@ Timed Buffer
 
 Implementation of a buffer that flushes its' contents immediately when it's full or at regular intervals. This is useful if you have data that you need to buffer but don't want the items to stay in the buffer for too long.
 
-Please note that in some cases it might be more efficient to use the actual data type (and buffer pools) instead of the generic `interface{}` type used in this implementation.
+Please note that in some cases it might be more efficient to use the actual data type (and buffer pools).
 
 Usage
 -----
